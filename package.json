@@ -1,0 +1,27 @@
+{
+  "name": "litematica-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for reading, creating and editing Litematica .litematic schematics",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "litematica-mcp": "./index.js" },
+  "scripts": {
+    "start": "node index.js",
+    "smoke": "node smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "minecraft",
+    "litematica",
+    "schematic",
+    "model-context-protocol",
+    "claude",
+    "nbt"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "deepslate": "^0.27.2",
+    "zod": "^4.6.7"
+  }
+}
